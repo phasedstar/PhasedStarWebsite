@@ -7,14 +7,67 @@ body.home-page{
     background-color: rgb(210, 219, 213);
     text-align: center;
 }
+.big-logo{
+    padding: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: auto;
+}
+    .clown-green{
+        width: 300px;
+        height: auto;
+        position: relative;
+        left: 3in;
+        top: 2in;
+        z-index: -2;
+       
+    }
+        .clown-green:hover{
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+            -webkit-transition: .4s ease-in-out;
+            transition: .4s ease-in-out;
+        }
+    .cloth-green{
+        width: 300px;
+        height: auto;
+    }
+        .cloth-green:hover{
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+            -webkit-transition: .4s ease-in-out;
+            transition: .4s ease-in-out;
+            
+         }
+         .text{
+            color: rgb(7, 224, 7);
+            font-family: 'Sedgwick Ave Display', cursive;
+            font-size: 50px;
+         }
+
+    .mini-green{
+         width: 300px;
+         height: auto;
+    }
+        .mini-green:hover{
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1); 
+            -webkit-transition: .4s ease-in-out;
+            transition: .4s ease-in-out;
+        }
 
 body.social-media{
     background-color: black;
     text-align: center;
 }
-.page-title{
-    color: white;
-}
+    .smile-art{
+        width: 100%;
+        height: auto;
+        
+    }
+
 body.about-page{
     background-color: rgb(147, 153, 149);
     text-align: center;
@@ -24,9 +77,36 @@ body.portfolio-page{
     background-color: rgb(48, 51, 49);
     text-align: center;
 }
+
+
 .site-title{
     width: 400px;
     height: auto;
-    
     padding: 10px;
 }
+.site-title-overlay {
+    position: relative;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+.page-title{
+    color: white;
+    
+    
+   
+}
+.main-menu{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border: white;
+    border-style: solid;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: large;
+}
+.main-menu, a:hover {
+    color: rgb(242, 247, 242);
+  }
+
+
