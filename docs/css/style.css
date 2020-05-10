@@ -11,9 +11,10 @@ body.home-page{
     padding: 100px;
     position: absolute center;
     width: 600px;
-    height: auto;
+    height: aut0;
 }
     .clown-green{
+        margin: 20px;
         width: 50%;
         max-width: 300px;
         height: auto;
@@ -69,8 +70,6 @@ body.social-media{
     .smile-art{
         width: 100%;
         height: auto;
-        animation: zoomIn; 
-        animation-duration: 1s;
     }
 
 body.about-page{
@@ -87,13 +86,13 @@ body.portfolio-page{
 .site-title{
     width: 500px;
     height: auto;
-    padding: 10px;
+    box-shadow: 0px 0px 0px rgb(8, 236, 0);
+    border-radius: 20px;
+    transition: box-shadow 0.25s;
+    
 }
-.site-title-overlay {
-    position: relative;
-    width: 400px;
-    height: auto;
-    padding: 10px;
+.site-title:hover{
+    box-shadow: 0px 5px 12px rgb(3, 170, 39);
 }
 .page-title{
     color: rgb(250, 250, 253);
@@ -119,11 +118,12 @@ body.portfolio-page{
 .small-logo{
     width: 200px;
     height: auto;
-}
+    animation:  flash infinite; 
+    animation-duration: 4s;
+    }
 
-p{
-    color: white;
-    font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 40px;
-    
- }
+.art-pieces{
+    padding: 20px;
+    width: 700px;
+    height: auto;
+}
