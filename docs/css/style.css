@@ -12,7 +12,6 @@ body.home-page{
     position: absolute center;
     width: 600px;
     height: auto;
-    
 }
     .clown-green{
         width: 50%;
@@ -21,8 +20,7 @@ body.home-page{
         position: absolute;
         left: 3in;
         top: 2in;
-        border-style: outset;
-       
+        border-style: outset;       
     }
         .clown-green:hover{
             -webkit-filter: grayscale(1);
@@ -46,10 +44,7 @@ body.home-page{
             transition: .4s ease-in-out;
             
          }
-         .text{
-            font-family: 'Sedgwick Ave Display', cursive;
-            font-size: 50px;
-         }
+        
 
     .mini-green{
         width: 50%;
@@ -74,7 +69,8 @@ body.social-media{
     .smile-art{
         width: 100%;
         height: auto;
-        
+        animation: zoomIn; 
+        animation-duration: 1s;
     }
 
 body.about-page{
@@ -124,7 +120,10 @@ body.portfolio-page{
     width: 200px;
     height: auto;
 }
-.small-logo:hover
-    animation: 
-    animation-duration: 1s;
-}
+
+p{
+    color: white;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 40px;
+    
+ }
