@@ -89,7 +89,7 @@ body.portfolio-page{
 
 
 .site-title{
-    width: 400px;
+    width: 500px;
     height: auto;
     padding: 10px;
 }
@@ -101,19 +101,30 @@ body.portfolio-page{
 }
 .page-title{
     color: rgb(250, 250, 253);
+    font-family: 'Bungee Shade', cursive;
+    font-size: 40px;
     
 }
 .main-menu{
-    text-align: center;
-    padding: 10px;
-    color: white;
-    border: white;
-    border-style: solid;
+    margin: auto;
+    padding: 15px;
     font-family: 'Sedgwick Ave Display', cursive;
-    font-size: large;
+    font-size: xx-large;
+    word-spacing:  5px;
+    border-style: outset;
+    box-sizing: border-box;
+    height: initial;
+    width: fit-content;
+    border-color: rgb(70, 109, 121);
 }
 .main-menu, a:hover {
-    color: rgb(242, 247, 242);
+    color: rgb(197, 5, 171);
   }
-
-
+.small-logo{
+    width: 200px;
+    height: auto;
+}
+.small-logo:hover
+    animation: 
+    animation-duration: 1s;
+}
