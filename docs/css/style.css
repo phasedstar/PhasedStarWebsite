@@ -199,3 +199,50 @@ body.portfolio-page{
     width: 90px;
     height: auto;
 }
+.insides {
+    display: none;
+    
+  }
+  .button{
+      background-color: rgb(170, 8, 162);
+      font-family: 'Sedgwick Ave Display', cursive ;
+      font-size: 30px;
+      border-color: rgb(61, 255, 47);
+      border-radius: 20px;
+      padding: 5px;
+  }
+  
+  .popout {
+    background-color: rgb(144, 5, 137);
+    border: 2px solid rgb(83, 233, 24);
+    position: absolute;
+    padding: 30px;
+    top: 7in;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 25px;
+    height: 1in;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bolder;
+  }
+  
+  .close:hover {
+    cursor: pointer;
+  }
+  
+  .spotify{
+      padding: 10px;
+      width: 70px;
+      height: auto;
+  }
+  .spotify-link{
+     align-items: center;
+      padding: 200px;
+  }
