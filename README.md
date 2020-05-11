@@ -1,2 +1,2 @@
-# http://PhasedStar.github.io
+# https://phasedstar.github.io/PhasedStarWebsite/
  final project for web dev
