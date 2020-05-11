@@ -116,10 +116,14 @@ body.portfolio-page{
     color: rgb(197, 5, 171);
   }
 .small-logo{
-    width: 200px;
+    width: 180px;
     height: auto;
     animation:  flash infinite; 
-    animation-duration: 4s;
+    animation-duration: 5s;
+    position: fixed ;
+    left: 0 ;
+    bottom: 0 ;
+    z-index: 1 ;
     }
 
 .art-pieces{
@@ -129,20 +133,63 @@ body.portfolio-page{
     height: auto;
 }
 .photo-me{
+    float: left;
     display: flex;
-    margin: 100px;
+    margin: 80px;
     width: 400px;
     height: auto;
 }
-.sketch{ 
-    display: flex;
-    margin: 100px;
-    width: 400px;
+.sketch{     
+    float: left;
+    padding: 100px;
+    width: 450px;
     height: auto;
 }
 .drawing{
-    display: flex;
-    margin: 100px;
-    width: 400px;
+    float: right;
+    padding: 100px;
+    width: 450px;
     height: auto;
 }
+.about-me{
+    padding: 100px;
+    float: right ;
+    width: 5in;
+}
+.title-1{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 40px;
+    color: rgb(112, 4, 85);
+    letter-spacing: 5px;
+    
+ }
+         .paragraph-1{           
+         font-size: 30px;
+         font-family: Impact, 'Arial Narrow Bold', sans-serif;
+        }
+.about-art{
+    float: right;
+    padding: 80px;
+    height: auto;
+    width: 5in;
+
+}
+.title-2{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 40px;
+    color: rgb(4, 60, 112);
+    letter-spacing: 5px;
+
+}
+        .paragraph-2{
+            font-size: 30px;
+            font-family: Impact, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .weeb-drawing{
+            float: left;
+            display: flex;
+            padding: 100px;
+            width: 500px;
+            height: auto;
+        }
