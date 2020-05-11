@@ -1,2 +1,2 @@
-# http://127.0.0.1:5500/docs/
+# https://phasedstar.github.io/PhasedStarWebsite/
  final project for web dev
