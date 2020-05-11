@@ -1,2 +1,2 @@
-# htp://PhasedStar
+# http://PhasedStar
  final project for web dev
