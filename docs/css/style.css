@@ -139,18 +139,14 @@ body.portfolio-page{
     width: 400px;
     height: auto;
 }
-.sketch{     
-    float: left;
-    padding: 100px;
-    width: 450px;
-    height: auto;
-}
-.drawing{
+.compare{     
+    
     float: right;
     padding: 100px;
-    width: 450px;
-    height: auto;
+    width: 33.33%;
+    
 }
+
 .about-me{
     padding: 100px;
     float: right ;
